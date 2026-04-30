@@ -26,9 +26,15 @@ class DatasetAgent:
         self._init_llm()
 
     def _init_llm(self):
-        self.llm = ChatOpenAI(model=self.model_name, temperature=0.7, openai_api_key=self.api_key)
-        self.tag_generator = self.llm.with_structured_output(TagUpdate)
-        self.qa_generator = self.llm.with_structured_output(QAResponse)
+        try:
+            self.llm = ChatOpenAI(model=self.model_name, temperature=0.7, openai_api_key=self.api_key)
+            self.tag_generator = self.llm.with_structured_output(TagUpdate)
+            self.qa_generator = self.llm.with_structured_output(QAResponse)
+        except Exception as e:
+            print(f"Warning: Could not initialize OpenAI LLM: {e}")
+            self.llm = None
+            self.tag_generator = None
+            self.qa_generator = None
 
     def update_model(self, model_name: str, api_key: Optional[str] = None):
         if model_name != self.model_name or api_key != self.api_key:
@@ -42,6 +48,9 @@ class DatasetAgent:
         """
         if model_name or api_key:
             self.update_model(model_name or self.model_name, api_key)
+            
+        if not self.tag_generator:
+            raise ValueError("OpenAI API key is missing or invalid. Please provide it in the configuration.")
             
         blueprint = []
         
@@ -81,6 +90,9 @@ class DatasetAgent:
         """
         if model_name or api_key:
             self.update_model(model_name or self.model_name, api_key)
+            
+        if not self.qa_generator:
+            raise ValueError("OpenAI API key is missing or invalid. Please provide it in the configuration.")
             
         questions = []
         choices_list = []
