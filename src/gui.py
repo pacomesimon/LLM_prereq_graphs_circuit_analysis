@@ -82,7 +82,7 @@ def create_ui():
                             file_types=[".json"]
                         )
                         gr.Examples(
-                            examples=[["assets/blueprint_20260405_124241.json"]],
+                            examples=[["assets/blueprint_7o054luj.json"]],
                             inputs=upload_bp,
                             label="Blueprint Example"
                         )
