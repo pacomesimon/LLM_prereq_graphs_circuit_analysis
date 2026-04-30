@@ -196,10 +196,7 @@ def create_ui():
                         gr.Examples(
                             examples=[["assets/full_eval_report_2u970ry9.json"]],
                             inputs=upload_eval_report,
-                            label="Eval Report Example",
-                            cache_examples=True,
-                            fn = lambda x: x,
-                            outputs = upload_eval_report
+                            label="Eval Report Example"
                         )
                         with gr.Tabs():
                             with gr.TabItem("📈 Graph Visualization"):
