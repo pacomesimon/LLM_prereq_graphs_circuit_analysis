@@ -191,6 +191,13 @@ def create_ui():
                         
 
                     with gr.Column(scale=3):
+                        gr.Markdown("---")
+                        upload_eval_report = gr.File(label="Upload Existing Eval Report (JSON)", file_types=[".json"])
+                        gr.Examples(
+                            examples=[["assets/full_eval_report_2u970ry9.json"]],
+                            inputs=upload_eval_report,
+                            label="Eval Report Example"
+                        )
                         with gr.Tabs():
                             with gr.TabItem("📈 Graph Visualization"):
                                 eval_viz_out = gr.Image(label="Dependency & Model Usage Map", type="numpy")
@@ -214,12 +221,6 @@ def create_ui():
                             with gr.TabItem("📋 Full Results Table"):
                                 eval_table_out = gr.Dataframe(interactive=False, wrap=False)
                         
-                        upload_eval_report = gr.File(label="Upload Existing Eval Report (JSON)", file_types=[".json"])
-                        gr.Examples(
-                            examples=[["assets/full_eval_report_2u970ry9.json"]],
-                            inputs=upload_eval_report,
-                            label="Eval Report Example"
-                        )
 
                 def run_strategic_eval_handler(df, provider, models_str, threshold, api_key):
                     from .eval_logic import EvaluationEngine
