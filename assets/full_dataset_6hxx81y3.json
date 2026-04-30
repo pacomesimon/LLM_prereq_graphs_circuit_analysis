@@ -1,0 +1,122 @@
+[
+    {
+        "id":"r1",
+        "parent_id":null,
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\"]",
+        "question":"Which component in analog circuits is primarily used to amplify weak signals?",
+        "choices":"[\"0. Resistor\", \"1. Transistor\", \"2. Capacitor\", \"3. Oscillator\"]",
+        "correct_idx":1
+    },
+    {
+        "id":"r1_c1",
+        "parent_id":"r1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\"]",
+        "question":"Which component is primarily used in analog circuits to increase the amplitude of a signal without altering its waveform?",
+        "choices":"[\"0. Oscillator\", \"1. Operational Amplifier\", \"2. Filter\", \"3. Transistor\"]",
+        "correct_idx":1
+    },
+    {
+        "id":"r1_c1_c1",
+        "parent_id":"r1_c1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Frequency Response Analysis\", \"Impedance Matching Techniques\"]",
+        "question":"Which component in an analog circuit is primarily used to increase the amplitude of a signal without altering its frequency or waveform?",
+        "choices":"[\"0. Transistor\", \"1. Operational Amplifier\", \"2. Oscillator\", \"3. Filter\"]",
+        "correct_idx":1
+    },
+    {
+        "id":"r1_c1_c1_c1",
+        "parent_id":"r1_c1_c1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Frequency Response Analysis\", \"Impedance Matching Techniques\", \"Nonlinear Circuit Analysis\", \"Mixed Signal Design\"]",
+        "question":"In an operational amplifier circuit designed to amplify low-frequency signals, which component is typically used to stabilize the gain and improve the frequency response?",
+        "choices":"[\"0. Capacitor placed in parallel with the feedback resistor\", \"1. Inductor placed in series with the input\", \"2. Diode placed in parallel with the input\", \"3. Transistor placed in the output for impedance matching\"]",
+        "correct_idx":0
+    },
+    {
+        "id":"r1_c1_c1_c2",
+        "parent_id":"r1_c1_c1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Frequency Response Analysis\", \"Impedance Matching Techniques\", \"Non-Linear Circuit Design\", \"Active Filters & Networks\"]",
+        "question":"What is the primary purpose of an operational amplifier in an analog circuit?",
+        "choices":"[\"To increase the amplitude of input signals for processing.\", \"To convert analog signals into digital signals for transmission.\", \"To generate oscillating signals of a specific frequency.\", \"To store electronic data temporarily in memory circuits.\"]",
+        "correct_idx":0
+    },
+    {
+        "id":"r1_c1_c2",
+        "parent_id":"r1_c1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Noise Analysis\", \"Nonlinear Dynamics\"]",
+        "question":"Which of the following electronic components is primarily used in designing oscillators for generating periodic waveforms?",
+        "choices":"[\"0. Operational Amplifier\", \"1. Diode\", \"2. Transistor\", \"3. Resistor\"]",
+        "correct_idx":2
+    },
+    {
+        "id":"r1_c1_c2_c1",
+        "parent_id":"r1_c1_c2",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Noise Analysis\", \"Nonlinear Dynamics\", \"Feedback Systems\", \"Analog-to-Digital Conversion\"]",
+        "question":"Which component in analog circuits is primarily used to increase the amplitude of a signal without significantly altering its waveform?",
+        "choices":"[\"0. Transistor\", \"1. Oscillator\", \"2. Operational Amplifier\", \"3. Analog-to-Digital Converter\"]",
+        "correct_idx":2
+    },
+    {
+        "id":"r1_c1_c2_c2",
+        "parent_id":"r1_c1_c2",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Noise Analysis\", \"Nonlinear Dynamics\", \"Mixed-Signal Systems\", \"Advanced Modulation Techniques\"]",
+        "question":"Which of the following components is most commonly used to amplify signals in analog circuits, particularly in audio and signal processing applications?",
+        "choices":"[\"0. Diode\", \"1. Capacitor\", \"2. Operational Amplifier\", \"3. Resistor\"]",
+        "correct_idx":2
+    },
+    {
+        "id":"r1_c2",
+        "parent_id":"r1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\"]",
+        "question":"Which of the following components is primarily responsible for determining the phase margin in an amplifier circuit?",
+        "choices":"[\"0. Resistor\", \"1. Capacitor\", \"2. Transistor\", \"3. Diode\"]",
+        "correct_idx":1
+    },
+    {
+        "id":"r1_c2_c1",
+        "parent_id":"r1_c2",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Nonlinear Distortion\", \"Noise Immunity\"]",
+        "question":"What is the primary purpose of implementing feedback loops in amplifiers within analog circuits?",
+        "choices":"[\"0. To increase the gain of the amplifier significantly.\", \"1. To stabilize the amplifier and improve phase margin.\", \"2. To introduce intentional distortion for signal processing.\", \"3. To enhance the noise immunity of the amplifier.\"]",
+        "correct_idx":1
+    },
+    {
+        "id":"r1_c2_c1_c1",
+        "parent_id":"r1_c2_c1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Nonlinear Distortion\", \"Noise Immunity\", \"Operational Stability\", \"High-Frequency Response Analysis\"]",
+        "question":"Which of the following factors is crucial in ensuring the operational stability of an amplifier circuit at high frequencies?",
+        "choices":"[\"0. The use of a larger power supply voltage to increase transistor gain.\", \"1. Implementing a feedback loop to control phase margin and minimize oscillations.\", \"2. Increasing the number of transistors in the amplifier circuit to improve gain.\", \"3. Reducing the physical size of capacitors to enhance high-frequency response.\"]",
+        "correct_idx":1
+    },
+    {
+        "id":"r1_c2_c1_c2",
+        "parent_id":"r1_c2_c1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Nonlinear Distortion\", \"Noise Immunity\", \"Bipolar Junction Transistors\", \"Analog Filter Design\"]",
+        "question":"Which of the following components is primarily used to stabilize the output in an analog amplifier circuit by providing constant feedback?",
+        "choices":"[\"0. Bipolar Junction Transistor (BJT)\", \"1. Oscillator\", \"2. Feedback Loop\", \"3. Analog Filter\"]",
+        "correct_idx":2
+    },
+    {
+        "id":"r1_c2_c2",
+        "parent_id":"r1_c2",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Negative Feedback Systems\", \"Noise Reduction Techniques\"]",
+        "question":"In an analog feedback amplifier circuit, which technique can be used to improve stability by adjusting the phase margin?",
+        "choices":"[\"0. Increasing the gain of the amplifier\", \"1. Introducing a low-pass filter\", \"2. Implementing negative feedback\", \"3. Reducing the load resistance\"]",
+        "correct_idx":2
+    },
+    {
+        "id":"r1_c2_c2_c1",
+        "parent_id":"r1_c2_c2",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Negative Feedback Systems\", \"Noise Reduction Techniques\", \"Nonlinear Distortion Analysis\", \"Transient Response Optimization\"]",
+        "question":"In the context of analog circuits, which component is primarily responsible for amplifying a signal while minimizing nonlinear distortion and noise?",
+        "choices":"[\"0. Oscillator\", \"1. Feedback Loop\", \"2. Transistor\", \"3. Amplifier\"]",
+        "correct_idx":3
+    },
+    {
+        "id":"r1_c2_c2_c2",
+        "parent_id":"r1_c2_c2",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Negative Feedback Systems\", \"Noise Reduction Techniques\", \"Non-linear Distortion\", \"Thermal Stability Analysis\"]",
+        "question":"Which of the following statements best describes the role of negative feedback in an amplifier circuit?",
+        "choices":"[\"It increases the oscillation frequency of the amplifier's output signal.\", \"It enhances the thermal stability of the amplifier by reducing temperature-induced gain variations.\", \"It introduces non-linear distortion to improve signal clarity and reduce noise.\", \"It is used to increase the overall gain of the amplifier by reducing the phase margin.\"]",
+        "correct_idx":1
+    }
+]

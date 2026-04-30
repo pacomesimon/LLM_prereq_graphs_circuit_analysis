@@ -1,0 +1,17 @@
+gradio
+networkx
+pydantic
+python-dotenv
+matplotlib
+httpx
+typing-extensions
+rich
+pandas
+numpy
+google-generativeai
+openai
+langchain
+langchain-openai
+langchain-ollama
+matplotlib-venn
+python-dotenv

@@ -1,0 +1,77 @@
+[
+    {
+        "id":"r1",
+        "parent_id":null,
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\"]"
+    },
+    {
+        "id":"r1_c1",
+        "parent_id":"r1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\"]"
+    },
+    {
+        "id":"r1_c1_c1",
+        "parent_id":"r1_c1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Frequency Response Analysis\", \"Impedance Matching Techniques\"]"
+    },
+    {
+        "id":"r1_c1_c1_c1",
+        "parent_id":"r1_c1_c1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Frequency Response Analysis\", \"Impedance Matching Techniques\", \"Nonlinear Circuit Analysis\", \"Mixed Signal Design\"]"
+    },
+    {
+        "id":"r1_c1_c1_c2",
+        "parent_id":"r1_c1_c1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Frequency Response Analysis\", \"Impedance Matching Techniques\", \"Non-Linear Circuit Design\", \"Active Filters & Networks\"]"
+    },
+    {
+        "id":"r1_c1_c2",
+        "parent_id":"r1_c1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Noise Analysis\", \"Nonlinear Dynamics\"]"
+    },
+    {
+        "id":"r1_c1_c2_c1",
+        "parent_id":"r1_c1_c2",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Noise Analysis\", \"Nonlinear Dynamics\", \"Feedback Systems\", \"Analog-to-Digital Conversion\"]"
+    },
+    {
+        "id":"r1_c1_c2_c2",
+        "parent_id":"r1_c1_c2",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Noise Analysis\", \"Nonlinear Dynamics\", \"Mixed-Signal Systems\", \"Advanced Modulation Techniques\"]"
+    },
+    {
+        "id":"r1_c2",
+        "parent_id":"r1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\"]"
+    },
+    {
+        "id":"r1_c2_c1",
+        "parent_id":"r1_c2",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Nonlinear Distortion\", \"Noise Immunity\"]"
+    },
+    {
+        "id":"r1_c2_c1_c1",
+        "parent_id":"r1_c2_c1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Nonlinear Distortion\", \"Noise Immunity\", \"Operational Stability\", \"High-Frequency Response Analysis\"]"
+    },
+    {
+        "id":"r1_c2_c1_c2",
+        "parent_id":"r1_c2_c1",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Nonlinear Distortion\", \"Noise Immunity\", \"Bipolar Junction Transistors\", \"Analog Filter Design\"]"
+    },
+    {
+        "id":"r1_c2_c2",
+        "parent_id":"r1_c2",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Negative Feedback Systems\", \"Noise Reduction Techniques\"]"
+    },
+    {
+        "id":"r1_c2_c2_c1",
+        "parent_id":"r1_c2_c2",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Negative Feedback Systems\", \"Noise Reduction Techniques\", \"Nonlinear Distortion Analysis\", \"Transient Response Optimization\"]"
+    },
+    {
+        "id":"r1_c2_c2_c2",
+        "parent_id":"r1_c2_c2",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Negative Feedback Systems\", \"Noise Reduction Techniques\", \"Non-linear Distortion\", \"Thermal Stability Analysis\"]"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "r1",
+        "parent_id": null,
+        "tags": "[\"Analog Circuits\", \"Electronic Design\", \"Circuit Theory\", \"Signal Processing\", \"Transistor Amplifiers\"]",
+        "question": "In an analog circuit that uses a common-emitter transistor amplifier configuration, which of the following is most likely to cause a significant reduction in the amplifier's gain at high frequencies?",
+        "choices": "[\"0. Increasing the load resistance connected to the collector.\", \"1. Adding a bypass capacitor across the emitter resistor.\", \"2. Miller effect capacitance becoming dominant.\", \"3. Using a transistor with a higher \\u03b2 (beta) value.\"]",
+        "correct_idx": 2
+    },
+    {
+        "id": "r1_c1",
+        "parent_id": "r1",
+        "tags": "[\"Analog Circuits\", \"Electronic Design\", \"Circuit Theory\", \"Signal Processing\", \"Transistor Amplifiers\", \"Passive Component Selection\", \"Frequency Response Analysis\"]",
+        "question": "In an analog circuit design involving a transistor amplifier, which passive component selection critically influences the circuit's frequency response?",
+        "choices": "[\"0. The value of the resistors in the feedback network\", \"1. The type of transistor used (e.g., BJT vs. MOSFET)\", \"2. The capacitance of coupling and bypass capacitors\", \"3. The power rating of the resistors in the signal path\"]",
+        "correct_idx": 2
+    },
+    {
+        "id": "r1_c2",
+        "parent_id": "r1",
+        "tags": "[\"Analog Circuits\", \"Electronic Design\", \"Circuit Theory\", \"Signal Processing\", \"Transistor Amplifiers\", \"Filter Design\", \"Op-Amp Configurations\"]",
+        "question": "In designing an analog signal processing system, which configuration would be most suitable for amplifying a low-frequency weak signal while minimizing noise, using an operational amplifier (Op-Amp)?",
+        "choices": "[\"0. Inverting Amplifier with a high-gain setting\", \"1. Non-Inverting Amplifier with a low-pass filter\", \"2. Differential Amplifier with a band-pass filter\", \"3. Instrumentation Amplifier with low-pass filter\"]",
+        "correct_idx": 3
+    }
+]
