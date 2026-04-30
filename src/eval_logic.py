@@ -178,7 +178,7 @@ class EvaluationEngine:
     def generate_visualization(self, results_df):
         """Generates the NetworkX graph plot using a radial shell layout."""
         G = nx.DiGraph()
-        colors = []
+        color_map = {}
         labels = {}
         
         # 1. Build the graph for positioning
@@ -189,12 +189,14 @@ class EvaluationEngine:
                 G.add_edge(str(row['parent_id']), node_id)
             
             status = row.get('status', 'success')
-            colors.append('lightcoral' if status in ['fail', 'critical_failure', 'skipped'] else 'lightblue')
+            color_map[node_id] = 'lightcoral' if status in ['fail', 'critical_failure', 'skipped'] else 'lightblue'
             
             labels[node_id] = (
                 f"ID: {node_id}\n"
                 f"M: {row['used_model']}"
             )
+
+        colors = [color_map.get(node, 'lightgray') for node in G.nodes()]
 
         # 2. Calculate shells based on depth
         roots = [n for n, d in G.in_degree() if d == 0]
