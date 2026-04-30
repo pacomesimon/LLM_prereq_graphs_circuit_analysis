@@ -8,7 +8,8 @@
         "path_successes":0,
         "path_failures":1,
         "inference_time":7.8186378479,
-        "status":"fail"
+        "status":"fail",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\"]"
     },
     {
         "id":"r1_c1",
@@ -19,7 +20,8 @@
         "path_successes":1,
         "path_failures":2,
         "inference_time":22.6335401535,
-        "status":"success"
+        "status":"success",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\"]"
     },
     {
         "id":"r1_c1_c1",
@@ -30,7 +32,8 @@
         "path_successes":2,
         "path_failures":2,
         "inference_time":8.4507107735,
-        "status":"success"
+        "status":"success",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Frequency Response Analysis\", \"Impedance Matching Techniques\"]"
     },
     {
         "id":"r1_c1_c1_c1",
@@ -41,7 +44,8 @@
         "path_successes":3,
         "path_failures":3,
         "inference_time":63.1253437996,
-        "status":"success"
+        "status":"success",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Frequency Response Analysis\", \"Impedance Matching Techniques\", \"Nonlinear Circuit Analysis\", \"Mixed Signal Design\"]"
     },
     {
         "id":"r1_c1_c1_c2",
@@ -52,7 +56,8 @@
         "path_successes":3,
         "path_failures":3,
         "inference_time":32.8601760864,
-        "status":"success"
+        "status":"success",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Frequency Response Analysis\", \"Impedance Matching Techniques\", \"Non-Linear Circuit Design\", \"Active Filters & Networks\"]"
     },
     {
         "id":"r1_c1_c2",
@@ -63,7 +68,8 @@
         "path_successes":2,
         "path_failures":2,
         "inference_time":10.9846487045,
-        "status":"success"
+        "status":"success",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Noise Analysis\", \"Nonlinear Dynamics\"]"
     },
     {
         "id":"r1_c1_c2_c1",
@@ -74,7 +80,8 @@
         "path_successes":3,
         "path_failures":2,
         "inference_time":8.64879632,
-        "status":"success"
+        "status":"success",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Noise Analysis\", \"Nonlinear Dynamics\", \"Feedback Systems\", \"Analog-to-Digital Conversion\"]"
     },
     {
         "id":"r1_c1_c2_c2",
@@ -85,7 +92,8 @@
         "path_successes":3,
         "path_failures":2,
         "inference_time":10.5769844055,
-        "status":"success"
+        "status":"success",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Operational Amplifiers\", \"Filter Design\", \"Noise Analysis\", \"Nonlinear Dynamics\", \"Mixed-Signal Systems\", \"Advanced Modulation Techniques\"]"
     },
     {
         "id":"r1_c2",
@@ -96,7 +104,8 @@
         "path_successes":1,
         "path_failures":3,
         "inference_time":26.5901544094,
-        "status":"success"
+        "status":"success",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\"]"
     },
     {
         "id":"r1_c2_c1",
@@ -107,7 +116,8 @@
         "path_successes":2,
         "path_failures":3,
         "inference_time":35.1808989048,
-        "status":"success"
+        "status":"success",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Nonlinear Distortion\", \"Noise Immunity\"]"
     },
     {
         "id":"r1_c2_c1_c1",
@@ -118,7 +128,8 @@
         "path_successes":3,
         "path_failures":3,
         "inference_time":41.286080122,
-        "status":"success"
+        "status":"success",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Nonlinear Distortion\", \"Noise Immunity\", \"Operational Stability\", \"High-Frequency Response Analysis\"]"
     },
     {
         "id":"r1_c2_c1_c2",
@@ -129,7 +140,8 @@
         "path_successes":3,
         "path_failures":3,
         "inference_time":29.8459024429,
-        "status":"success"
+        "status":"success",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Nonlinear Distortion\", \"Noise Immunity\", \"Bipolar Junction Transistors\", \"Analog Filter Design\"]"
     },
     {
         "id":"r1_c2_c2",
@@ -140,7 +152,8 @@
         "path_successes":1,
         "path_failures":4,
         "inference_time":0.0,
-        "status":"critical_failure"
+        "status":"critical_failure",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Negative Feedback Systems\", \"Noise Reduction Techniques\"]"
     },
     {
         "id":"r1_c2_c2_c1",
@@ -151,7 +164,8 @@
         "path_successes":1,
         "path_failures":4,
         "inference_time":0.0,
-        "status":"skipped"
+        "status":"skipped",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Negative Feedback Systems\", \"Noise Reduction Techniques\", \"Nonlinear Distortion Analysis\", \"Transient Response Optimization\"]"
     },
     {
         "id":"r1_c2_c2_c2",
@@ -162,6 +176,7 @@
         "path_successes":1,
         "path_failures":4,
         "inference_time":0.0,
-        "status":"skipped"
+        "status":"skipped",
+        "tags":"[\"Analog Circuits\", \"Signal Processing\", \"Electronic Components\", \"Transistors\", \"Amplifiers\", \"Oscillators\", \"Feedback Loops\", \"Phase Margin Analysis\", \"Negative Feedback Systems\", \"Noise Reduction Techniques\", \"Non-linear Distortion\", \"Thermal Stability Analysis\"]"
     }
 ]
