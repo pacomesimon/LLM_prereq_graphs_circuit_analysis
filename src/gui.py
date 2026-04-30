@@ -189,13 +189,6 @@ def create_ui():
                         eval_summary_out = gr.Markdown("No evaluation run yet.")
                         eval_download_link = gr.File(label="Download Final Report", interactive=False)
                         
-                        gr.Markdown("---")
-                        upload_eval_report = gr.File(label="Upload Existing Eval Report (JSON)", file_types=[".json"])
-                        gr.Examples(
-                            examples=[["assets/full_eval_report_2u970ry9.json"]],
-                            inputs=upload_eval_report,
-                            label="Eval Report Example"
-                        )
 
                     with gr.Column(scale=3):
                         with gr.Tabs():
@@ -220,6 +213,13 @@ def create_ui():
                                     venn_report_out = gr.Markdown("Select sets and click update.")
                             with gr.TabItem("📋 Full Results Table"):
                                 eval_table_out = gr.Dataframe(interactive=False, wrap=False)
+                        gr.Markdown("---")
+                        upload_eval_report = gr.File(label="Upload Existing Eval Report (JSON)", file_types=[".json"])
+                        gr.Examples(
+                            examples=[["assets/full_eval_report_2u970ry9.json"]],
+                            inputs=upload_eval_report,
+                            label="Eval Report Example"
+                        )
 
                 def run_strategic_eval_handler(df, provider, models_str, threshold, api_key):
                     from .eval_logic import EvaluationEngine
