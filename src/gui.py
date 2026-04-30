@@ -213,7 +213,7 @@ def create_ui():
                                     venn_report_out = gr.Markdown("Select sets and click update.")
                             with gr.TabItem("📋 Full Results Table"):
                                 eval_table_out = gr.Dataframe(interactive=False, wrap=False)
-                        gr.Markdown("---")
+                        
                         upload_eval_report = gr.File(label="Upload Existing Eval Report (JSON)", file_types=[".json"])
                         gr.Examples(
                             examples=[["assets/full_eval_report_2u970ry9.json"]],
