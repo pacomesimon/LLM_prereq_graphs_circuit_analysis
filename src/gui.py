@@ -193,6 +193,12 @@ def create_ui():
                     with gr.Column(scale=3):
                         gr.Markdown("---")
                         upload_eval_report = gr.File(label="Upload Existing Eval Report (JSON)", file_types=[".json"])
+                        example_btn_uploader = gr.Button("Load Example")
+                        example_btn_uploader.click(
+                            fn = lambda: "assets/full_eval_report_2u970ry9.json",
+                            inputs=[],
+                            outputs=upload_eval_report
+                        )
                         gr.Examples(
                             examples=[["assets/full_eval_report_2u970ry9.json"]],
                             inputs=upload_eval_report,
