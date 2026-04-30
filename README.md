@@ -8,7 +8,7 @@ sdk_version: 5.6.0
 app_file: app.py
 pinned: false
 license: mit
-short_description: LLM compression for circuit analysis via prerequisite graphs.
+short_description: LLM compression for circuit analysis via prereq graphs.
 ---
 
 # 🕸️ Performance-Aware Model Compression for Circuit Analysis Using Prerequisite Graphs
