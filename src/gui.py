@@ -198,6 +198,8 @@ def create_ui():
                             inputs=upload_eval_report,
                             label="Eval Report Example",
                             cache_examples=True,
+                            fn = lambda x: x,
+                            outputs = upload_eval_report
                         )
                         with gr.Tabs():
                             with gr.TabItem("📈 Graph Visualization"):
