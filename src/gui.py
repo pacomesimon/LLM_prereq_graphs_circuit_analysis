@@ -194,9 +194,10 @@ def create_ui():
                         gr.Markdown("---")
                         upload_eval_report = gr.File(label="Upload Existing Eval Report (JSON)", file_types=[".json"])
                         gr.Examples(
-                            examples=[["assets/full_dataset_6hxx81y3.json"]],
+                            examples=[["assets/full_eval_report_2u970ry9.json"]],
                             inputs=upload_eval_report,
-                            label="Eval Report Example"
+                            label="Eval Report Example",
+                            cache_examples=True,
                         )
                         with gr.Tabs():
                             with gr.TabItem("📈 Graph Visualization"):
