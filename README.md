@@ -72,3 +72,22 @@ This optional analytical mode applies the following formal assumptions to the re
     ```bash
     python app.py
     ```
+## Citation
+
+If you use this work or codebase in your research, please cite the paper as follows:
+
+Mbonimpa, P. S. (2026). *Complexity Horizons of Compressed Models in Analog Circuit Analysis*. arXiv preprint arXiv:2605.02285. https://arxiv.org/abs/2605.02285
+
+### BibTeX
+
+```bibtex
+@misc{mbonimpa2026complexityhorizonscompressedmodels,
+      title={Complexity Horizons of Compressed Models in Analog Circuit Analysis}, 
+      author={Pacome Simon Mbonimpa},
+      year={2026},
+      eprint={2605.02285},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2605.02285}, 
+}
+```
