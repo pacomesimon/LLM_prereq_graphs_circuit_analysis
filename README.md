@@ -14,7 +14,7 @@ short_description: LLM compression for circuit analysis via prereq graphs.
 # 🕸️ Performance-Aware Model Compression for Circuit Analysis Using Prerequisite Graphs
 
 This is a strategic LLM evaluation framework designed to test **model cascades** on hierarchical task graphs. Tasks are modeled as **Directed Acyclic Graphs (DAGs)**, representing complex real-world workflows where success on a parent node is a prerequisite for attempting its descendants.
-
+(The full generated dataset is available [here on HuggingFace](https://huggingface.co/datasets/pacomesimon/MCQ_Circuit_Analysis_Using_Prerequisite_Graphs).)
 ---
 
 ## 🏗️ Technical Reproduction Guide
